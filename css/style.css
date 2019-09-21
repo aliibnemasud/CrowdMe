@@ -1,0 +1,342 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    padding: none;
+    color: #515151;
+    font-size: 16px;
+}
+
+
+/*navbar section*/
+
+.navbar {
+    padding: 20px 0;
+}
+
+.login {
+    background: #bcda5c;
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    border-radius: 21px;
+    color: #fff !important;
+    text-align: center;
+    line-height: 25px;
+    transition: .5s;
+}
+.nav-link {
+    margin-left: 22px;
+    color: #3f3f3f;
+}
+
+.login:hover {
+    background: none;
+    border: 1px solid #bcda5c;
+    color: #3f3f3f !important;
+}   
+
+
+/*banner section start */
+
+.become {
+    text-align: center;
+    display: inline-block;
+    display: block;
+    padding: 12px 25px;
+    background: #8fc63d;
+    color: #fff;
+    font-size: 17px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.banner {
+    background: linear-gradient(#a9bbafbd, #ad896e63), url(../img/bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+.banner h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 16%;
+}
+.banner h1 span {
+    font-size: 30px;
+}
+
+
+/*blog section*/
+
+.blog {
+    padding: 120px 0;
+}
+.blog img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.blog h1 {
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 44px;
+    margin-bottom: 44px;
+}
+.blog p {
+    padding: 0px 10%;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+/*number section*/
+.number {background: #495057;height: 40px;width: 40px;display: inline-block;line-height: 40px;color: #fff;border-radius: 50%;margin-right: 9%;}
+.num {
+    height: 40px;
+    background: #add136;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+.number p {
+        font-size: 30px;
+        margin-top: 10PX;
+}
+
+/*tap-bar section*/
+
+/*.number section*/
+
+.num-tab {
+    padding: 80px 0;
+}
+
+.num-tab img {
+    display: block;
+    margin: 0 auto;
+}
+.num-tab h3 {
+    color: #add136;
+    margin-bottom: 3%;
+}
+
+
+.nav-pills {
+    background: transparent;
+}
+.nav-pills .nav-link{
+
+background: transparent !important;
+
+color: black !important;
+
+font-size: 20px;
+
+margin-bottom: 4%;
+}
+.nav-pills .nav-link span {}
+.nav-pills .nav-link.active{
+}
+.nav-pills .number{
+}
+.nav-pills .nav-link.active .number{
+    background: #add136;
+}
+
+
+/*find section*/
+
+.find {}
+.left{
+    background: #e2f8ff;
+    padding: 5% 1% 5% 10%;
+}
+.find img {
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+}
+.find h5 {
+    font-size: 20px;
+    color: #515151;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.walet {}
+.lamp {}
+.find img {}
+
+.find p {
+    margin-bottom: 6%;
+    padding: 1px 25%  0 0;
+    line-height: 1.7;
+}
+.find .member {
+    background: #8fc63d;
+    color: #fff;
+}
+
+.right {
+    background: #f5f9eb;
+    padding: 5% 1% 5% 10%;
+}
+
+
+.project {
+    background: #26a6d1;
+    color: #fff;
+}
+
+
+/*card item section*/
+
+.items {
+    padding: 80px 0;
+}
+
+.become2 {
+    float: right;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 20px;
+    margin-top: 6%;
+}
+.items h5 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.items p {
+    margin: 5% 0;
+}
+
+
+.gallary {
+    margin-top: 30px;
+}
+.new {
+    background: #8fc63d;
+    color: #fff;
+    padding: 25px 49px 7px;
+    position: absolute;
+    top: -2%;
+    left: -13%;
+    transform: rotate(-45deg);
+}
+.gbp {
+    background: #26a6d1;
+    padding: 10px 20px;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    color: #fff;
+    border-radius: 22px;
+}
+
+.items .card {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallary {}
+.gallary .card-body .progress2 .progress-bar {
+    width: 60%;
+    background: #add136; 
+}
+.gallary .card-body .progress-bar {
+    width: 10%;
+    background: #add136; 
+}
+.gallary .card-body h5 {font-size: 26px;margin-bottom: 10px;}
+.gallary .card-body {
+    background: #fafafa;
+    padding: 9% 5% 18% 5%;
+}
+.gallary .card-body .info p {}
+.gallary .card-body .line {
+    height: 1px;
+    background: #424242;
+    color: #fff;
+    margin-top: 6%;
+}
+.gallary .card-body .btn-project {
+    float: right;
+    margin-top: 5%;
+    background: transparent;
+    font-size: 16px;
+}
+.gallary .card-body .btn-project i {
+    color: #add136;
+}
+
+
+/*feedback section*/
+
+.feedback {
+    background: url(../img/bg-2.png);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    padding: 113px 0;
+}
+
+.feedback h1 {
+    text-align: center;
+    color: #add136;
+    margin-bottom: 2%;
+}
+
+.feedback p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.client-box {
+    margin-top: 5%;
+    position: relative;
+}
+
+.c-feedback {
+    position: absolute;
+    top: 24%;
+    left: -28%;
+    padding: 12px 33%;
+}
+.name {position: absolute;bottom: 3%;left: 26%;}
+.heading {
+    position: absolute;
+    top: 17%;
+    left: 23%;
+    font-weight: 700;
+    color: #add136;
+}
+
+.client-img {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.f {
+    padding: 0 11%;
+    margin-bottom: 7%;
+}
+/*lsgos section start */
+
+.logos {
+    padding: 50px 0;
+}
+
+
+/*footer section*/
+
+.footer-p {
+    padding: 40px 0;
+}
