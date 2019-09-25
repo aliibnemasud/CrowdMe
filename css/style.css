@@ -29,7 +29,18 @@ p {
 .nav-link {
     margin-left: 22px;
     color: #3f3f3f;
+    font-size: 15px;
 }
+
+.nav-link:hover {
+    color: #bcda5c;
+}
+
+.nav-item.active .nav-link {
+    color: #bcda5c;
+}
+
+
 
 .login:hover {
     background: none;
@@ -41,16 +52,14 @@ p {
 /*banner section start */
 
 .become {
-    text-align: center;
-    display: inline-block;
-    display: block;
     padding: 12px 25px;
-    background: #8fc63d;
+    background: #8fc63d !important;
+    color: #fff !important;
+}
+
+.become:hover {
     color: #fff;
-    font-size: 17px;
-    width: 20%;
-    margin: 0 auto;
-    margin-top: 5%;
+    background: #70b10f;
 }
 .banner {
     background: linear-gradient(#a9bbafbd, #ad896e63), url(../img/bg.png);
@@ -59,10 +68,10 @@ p {
     height: 70vh;
 }
 .banner h1 {
-    text-align: center;
     color: #fff;
     font-size: 50px;
-    margin-top: 16%;
+    padding-top: 16%;
+    margin-bottom: 50px;
 }
 .banner h1 span {
     font-size: 30px;
@@ -95,7 +104,16 @@ p {
 
 
 /*number section*/
-.number {background: #495057;height: 40px;width: 40px;display: inline-block;line-height: 40px;color: #fff;border-radius: 50%;margin-right: 9%;}
+.number {
+    background: #495057;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 9%;
+}
 .num {
     height: 40px;
     background: #add136;
@@ -131,6 +149,7 @@ p {
 
 .nav-pills {
     background: transparent;
+    border-bottom: 1px solid #0000000d;
 }
 .nav-pills .nav-link{
 
@@ -139,16 +158,21 @@ background: transparent !important;
 color: black !important;
 
 font-size: 20px;
-
-margin-bottom: 4%;
 }
 .nav-pills .nav-link span {}
 .nav-pills .nav-link.active{
+    border-bottom: 1px solid #add136;
+    border-radius: 0;
+    padding-bottom: 37px;
 }
 .nav-pills .number{
 }
 .nav-pills .nav-link.active .number{
     background: #add136;
+}
+
+.tab-content {
+    margin-top: 30px;
 }
 
 
@@ -161,14 +185,14 @@ margin-bottom: 4%;
 }
 .find img {
     display: block;
-    margin: 0 auto;
-    width: 65%;
+    width: 90%;
 }
 .find h5 {
     font-size: 20px;
     color: #515151;
     font-weight: 700;
     margin-bottom: 5%;
+    text-align: left;
 }
 
 .walet {}
@@ -179,10 +203,12 @@ margin-bottom: 4%;
     margin-bottom: 6%;
     padding: 1px 25%  0 0;
     line-height: 1.7;
+    text-align: left;
 }
 .find .member {
     background: #8fc63d;
     color: #fff;
+    float: left;
 }
 
 .right {
@@ -194,6 +220,7 @@ margin-bottom: 4%;
 .project {
     background: #26a6d1;
     color: #fff;
+    float: left;
 }
 
 
@@ -245,6 +272,7 @@ margin-bottom: 4%;
 .items .card {
     position: relative;
     overflow: hidden;
+    border: none;
 }
 
 .gallary {}
@@ -283,7 +311,7 @@ margin-bottom: 4%;
 
 .feedback {
     background: url(../img/bg-2.png);
-    height: 70vh;
+    /* height: 70vh; */
     background-position: center;
     background-size: cover;
     padding: 113px 0;
@@ -307,21 +335,20 @@ margin-bottom: 4%;
 
 .c-feedback {
     position: absolute;
-    top: 24%;
-    left: -28%;
-    padding: 12px 33%;
+    top: 30%;
+    padding: 10px 90px !important;
 }
-.name {position: absolute;bottom: 3%;left: 26%;}
+.name {position: absolute;bottom: 5%;left: 37%;}
 .heading {
     position: absolute;
     top: 17%;
-    left: 23%;
+    left: 32%;
     font-weight: 700;
     color: #add136;
 }
 
 .client-img {
-    margin-left: 10%;
+    margin-left: -43%;
     margin-top: 2%;
 }
 .f {
@@ -340,3 +367,312 @@ margin-bottom: 4%;
 .footer-p {
     padding: 40px 0;
 }
+
+
+
+
+
+
+/*responsive*/
+
+@media (max-width: 320px) {
+
+    p {
+        font-size: 12px;
+    }
+
+    .banner {
+        height: 40vh !important;
+    }
+    .navbar-brand {
+    margin-left: 10px;
+    width: 50%;
+}
+
+.banner h1 {
+    font-size: 25px;
+    margin-top: 26%;
+}
+.banner h1 span {
+    font-size: 16px;
+}
+
+.become {
+}
+
+.blog h1 {
+    font-size: 17px;
+    line-height: 1.7;
+}
+.blog p {
+    font-size: 12px;
+    padding: 0;
+}
+
+.blog {
+    padding: 40px 0;
+}
+
+
+    /*tab section*/
+
+ .nav-pills .nav-link {
+    font-size: 16px;
+}
+
+.num-tab h3 {
+    margin: 20px;
+    font-size: 18px;
+    text-align: center;
+} 
+
+.num-tab img {
+    width: 25%;
+}  
+
+.num-tab .tab-content p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.find img {
+    width: 40%;
+    margin: 0 auto;
+    padding: 18px 0;
+}
+
+.find p {
+    text-align: center;
+    font-size: 13px;
+    padding: 5%;
+}
+
+.find h5 {
+    text-align: center;
+}
+.member, .project {
+    font-size: 12px !important;
+    margin-left: 90px !important;
+}
+.left, .right {
+    
+padding: 5% 0% 5% 0%;
+}
+
+
+/*item section*/
+.items h5 {
+    font-size: 20px !important;
+    text-align: center;
+}
+
+.items p {
+    text-align: center;
+}
+
+.become2 {
+    margin-right: 67px !important;
+}
+
+.gallary .card-body h5 {
+    font-size: 20px !important;
+}
+
+.gallary .col-md-4 {
+    padding: 20px;
+}
+
+.feedback h1 {
+    margin-bottom: 4%;
+    font-size: 24px;
+}
+.feedback p {
+    font-size: 12px !important;
+    padding: 0 8% !important;
+}
+.heading {
+    top: 12% !important;
+    left: 22% !important;
+}
+
+.name {
+    left: 46% !important;
+}
+
+
+}
+
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+p {
+    font-size: 14px !important;
+}
+.banner {
+        height: 60vh;
+    }
+    .navbar-brand {
+    margin-left: 10px;
+    width: 50%;
+}
+
+.banner h1 {
+    font-size: 25px;
+    margin-top: 26%;
+}
+.banner h1 span {
+    font-size: 16px;
+}
+
+.become {
+    font-size: 12px;
+    width: 56%;
+    margin-top: 50px;
+}
+
+.blog h1 {
+    font-size: 17px;
+    line-height: 1.7;
+}
+.blog p {
+    font-size: 12px;
+    padding: 0;
+}
+
+.blog {
+    padding: 40px 0;
+}
+
+
+    /*tab section*/
+
+ .nav-pills .nav-link {
+    font-size: 16px;
+}
+
+.num-tab h3 {
+    margin: 20px;
+    font-size: 18px;
+    text-align: center;
+} 
+
+.num-tab img {
+    width: 20%;
+}  
+
+.num-tab .tab-content p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.find img {
+    width: 30%;
+    margin: 0 auto;
+    padding: 18px 0;
+}
+
+.find p {
+    text-align: center;
+    font-size: 16px;
+    padding: 0 10%;
+}
+
+.find h5 {
+    text-align: center;
+}
+.member, .project {
+    font-size: 15px;
+    margin-left: 35%;
+}
+.left, .right {
+    
+padding: 5% 0% 5% 0%;
+}
+
+
+/*item section*/
+.items h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.items p {
+    text-align: center;
+}
+
+.become2 {
+    font-size: 12px;
+    margin-right: 35%;
+}
+
+.gallary .card-body h5 {
+    font-size: 30px;
+}
+
+.gallary .col-md-4 {
+    padding: 20px;
+}
+
+.feedback h1 {
+    margin-bottom: 4%;
+    font-size: 24px;
+}
+.feedback p {
+    font-size: 12px;
+    padding: 0 10%;
+}
+.heading {
+    top: 20%;
+    left: 35%;
+}
+
+.name {
+    left: 40%;
+}
+
+
+
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+
+
+.become {
+        font-size: 12px;
+}
+.banner h1 {
+        font-size: 37px;
+        padding-top: 37%;
+        margin-bottom: 22px;
+}
+
+.banner h1 span {
+    font-size: 20px;
+}
+.blog h1 {
+       font-size: 30px;
+        
+    }
+
+.num-tab h3 {    
+    text-align: center;
+
+}
+.find img {
+
+} 
+
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+    
+}
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
